@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+	min-height: 100%;
+	margin: 0;
+	background-color: #020617;
+	background-image: linear-gradient(135deg, #020617 0%, #0f172a 45%, #0c4a6e 100%);
+	background-attachment: fixed;
+	overscroll-behavior-y: none;
+	color-scheme: dark;
+}
+
+body {
+	overflow-x: hidden;
+}
